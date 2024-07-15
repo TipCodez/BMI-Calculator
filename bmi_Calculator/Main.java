@@ -28,6 +28,7 @@ public class Main {
                     System.out.print(" Please enter your height in metres: \n");
                     height= scanner.nextDouble();
                     BMI = weight/(height*height);
+                    BMI = Math.round(BMI);
                     
                     //conditions
                     System.out.print("__________________________________________\n");
